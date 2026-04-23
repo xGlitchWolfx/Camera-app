@@ -53,17 +53,3 @@ Nota: el degradado no se aplica desde `backgroundColor`, porque esa opcion solo 
 3. Se configura el plugin `SplashScreen` en `capacitor.config.ts`.
 4. Se regeneran los recursos nativos con Capacitor.
 5. Se sincroniza Android con `npx cap sync android`.
-
-## Ejecucion
-
-```bash
-npm install
-npm run build
-npx cap sync android
-```
-
-Para abrir la version nativa en Android Studio:
-
-```bash
-npx cap open android
-```
